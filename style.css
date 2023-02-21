@@ -1,0 +1,114 @@
+
+body{
+
+}
+.navigator{
+    display: flex;
+    justify-items: space-between;
+    border:solid 2px blue;
+    background-color:deepskyblue;
+    color:white;
+    position:fixed;
+    width:100%;
+}
+.logo{
+    background-color: blue;
+}
+.navigator:first-child :hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.logo h3{
+    display: inline-block;
+    justify-items: center;
+
+}
+.fa-regular {
+margin:10px;
+display:inline-block;
+justify-items: center;
+height:50px;
+width:30px;
+position:relative;
+top:15%;
+}
+.fa-regular :hover{
+    background-color:grey;
+    cursor: pointer;
+}
+
+
+.tab{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+
+}
+.first{
+    border: 1px solid black;
+    box-shadow:4cap;
+
+}
+.first h3{
+text-align: center;
+}
+.first img{
+    position: relative;
+    left:25%;
+    border-radius:100px;
+}
+.first h5{
+   display: inline;
+    }
+
+.second{
+    border: 1px solid black;
+    box-shadow:4cap;
+}
+.second h3{
+    display: inline-block;
+}
+.header{
+    background-color:blue;
+    color:white;
+}
+
+img{
+    height: 30px;
+    width:50px;
+}
+
+.photos{
+    display:grid;
+    grid-template-columns: repeat(2, 50px);
+    gap:5px;
+
+}
+.third p{
+    color:black;
+    display:inline-block;
+    border: solid 1px white;  
+ }
+
+ .third p:nth-child(-n+2){
+    background-color: blue;
+ }
+
+ .third p:nth-child(n+3){
+    background-color: violet ;
+ }
+ .third p:nth-child(n+8){
+    background-color: gray ;
+ }
+
+ .third p:nth-child(n+10){
+    background-color: lightgrey ;
+ }
+
+.third{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+ 
