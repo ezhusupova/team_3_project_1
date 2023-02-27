@@ -322,4 +322,24 @@ img{
         background-color: grey;
     }
     
+    .first-footer{
+        background-color:#199de5;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 16px;
+        font-family: 'Open-Sans', sans-serif;
+        margin: 0;
+        }
+        .second-footer{
+        background-color:#076490;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 16px;
+        font-family: 'Open-Sans', sans-serif;
+        margin: 0;
+        }
+        
+        
  
