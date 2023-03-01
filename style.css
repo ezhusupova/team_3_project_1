@@ -322,4 +322,50 @@ img{
         background-color: grey;
     }
     
- 
+  .mid-column { 
+    
+    width: 50%;
+    margin-left: 400px;
+    
+  }
+
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mid-column #ava {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .card-buttons {
+    margin: 10px;
+  }
+
+  .card-images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-images img{
+    height: 40%;
+    width: 40%;
+    
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .avatar {
+    display: flex;
+  }
+
+  .avatar h3 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 0.5cm;
+  }
